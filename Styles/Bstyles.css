@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto";
+  color: white;
+  background: linear-gradient(to top left, #000000, #424242);
+}
+
+header {
+  font-family: "roboto";
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  padding-top: 73px;
+  padding-right: 133px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: last baseline;
+  gap: 54px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.nav-home {
+  color: #ffd700; /* Warna teks kuning untuk 'Home' */
+  background-color: #333; /* Warna latar belakang jika diinginkan */
+}
+
+.nav-home:hover {
+  color: #333; /* Warna teks saat hover */
+  background-color: #ffd700; /* Warna latar belakang saat hover */
+}
+
+.menu-icon {
+  display: inline; /* Pastikan elemen ini ditampilkan */
+  font-size: 1.47125em;
+  height: 18px;
+  width: auto;
+  /* Atur ukuran font agar terlihat */
+  color: #ffffff;
+}
+
+.landing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 149px;
+  padding-left: 149px;
+  padding-bottom: 63px;
+}
+
+.intro {
+  max-width: 600px;
+  height: 500px;
+}
+
+.intro h2 {
+  font-size: 22.5px;
+  margin-bottom: 0px;
+  font-family: "roboto";
+  font-weight: bold;
+}
+
+.intro h1 {
+  font-size: 110px;
+  font-family: "roboto";
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.intro .tagline {
+  color: #ffd700;
+  font-family: "roboto";
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 24px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+  font-family: "roboto";
+}
+
+.intro button {
+  background-color: #ffffff;
+  color: black;
+  font-family: "roboto";
+  font-weight: bold;
+  font-size: 26.25px;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-bottom: 162px;
+}
+
+.logo img {
+  max-width: 377.25px;
+  max-height: auto;
+  object-fit: contain;
+}
+
+.logo2 img {
+  width: 582px;
+  max-height: auto;
+  object-fit: contain;
+  float: left;
+  margin-right: 20px;
+}
+
+.text-container {
+  margin-left: 20px;
+}
+
+.about h2 {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about p {
+  font-size: 24px;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tag {
+  max-width: 500px;
+}
+
+.ulino {
+  clear: both;
+  font-size: 100px;
+  color: #ffd700;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 75px;
+}
+
+.logo3 img {
+  width: 211.5px;
+  max-height: auto;
+  object-fit: contain;
+  float: right;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between; /* Memastikan logo berada di kanan dan kiri */
+  align-items: center; /* Memastikan logo sejajar secara vertikal */
+  padding: 0 20px;
+}
+
+.logo4 img {
+  width: 211.5px;
+  max-height: auto;
+  object-fit: contain;
+  float: left;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between; /* Memastikan logo berada di kanan dan kiri */
+  align-items: center; /* Memastikan logo sejajar secara vertikal */
+  padding: 0 20px;
+}
+
+.visionmision {
+  display: flex;
+  justify-content: center; /* Memusatkan konten secara horizontal */
+  align-items: center; /* Memusatkan konten secara vertikal */
+  height: 100vh; /* Pastikan section mengambil tinggi penuh layar */
+  text-align: center; /* Memusatkan teks dalam elemen vision dan mission */
+  padding: 20px; /* Tambahkan padding jika diperlukan */ /* Memberikan latar belakang untuk pemisah visual */
+}
+
+.vision-mission {
+  display: flex;
+  flex-direction: column; /* Atur elemen vision dan mission secara vertikal */
+  gap: 30px; /* Jarak antar elemen vision dan mission */
+}
+
+.vision,
+.mission {
+  max-width: 850px; /* Batasi lebar maksimal agar teks lebih mudah dibaca */
+}
+
+.vision h3,
+.mission h3 {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.vision p,
+.mission p {
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+.marketing {
+  padding: 50px;
+  background-color: #333333;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-size: 2.5em;
+  color: #ffd700;
+  margin-bottom: 40px;
+}
+
+.strategy {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.step {
+  background-color: #444444;
+  color: #ffd700;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 calc(33% - 20px);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.product {
+  padding: 50px;
+  text-align: center;
+}
+
+.product h2 {
+  font-size: 2.5em;
+  color: #ffd700;
+  margin-bottom: 40px;
+}
+
+.product-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  max-width: 200px;
+  margin: 10px;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-item p {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+footer {
+  padding: 50px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 2.5em;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+footer .social-media a {
+  margin: 0 10px;
+}
+
+footer .social-media img {
+  width: 50px;
+}

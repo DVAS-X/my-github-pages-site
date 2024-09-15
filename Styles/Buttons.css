@@ -1,0 +1,174 @@
+.Subscribe-button {
+  margin-right: 8px;
+  background-color: rgb(204, 0, 0);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  vertical-align: top;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.1s;
+  border: none;
+}
+
+.Subscribe-button:hover {
+  opacity: 0.7;
+}
+
+.Subscribe-button:active {
+  opacity: 0.5;
+}
+
+.Join-button {
+  margin-right: 8px;
+  background-color: white;
+  color: rgb(3, 137, 247);
+  height: 36px;
+  width: 65px;
+  border-style: solid;
+  border-color: rgb(3, 137, 247);
+  border-radius: 2px;
+  border-width: 1px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.Join-button:hover {
+  background-color: rgb(3, 137, 247);
+  color: white;
+}
+
+.Join-button:active {
+  background-color: rgb(3, 137, 247);
+  color: white;
+  opacity: 0.6;
+}
+
+.Tweet-button {
+  margin-right: 8px;
+  background-color: rgb(19, 129, 255);
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  border-style: solid;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  vertical-align: top;
+  font-size: 15px;
+  transition: box-shadow 0.15s;
+}
+
+.Tweet-button:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.Uber {
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 36px;
+  cursor: pointer;
+  border: solid;
+}
+
+.Uber:hover {
+  opacity: 0.8;
+}
+
+.Amazon {
+  background-color: rgb(255, 221, 0);
+  color: black;
+  width: 170px;
+  height: 36px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.Amazon:hover {
+  background-color: rgb(217, 188, 0);
+}
+
+.Github {
+  color: white;
+  background-color: rgb(46, 164, 79);
+  border: none;
+  border-radius: 8px;
+  width: 90px;
+  height: 36px;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.Github:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}
+
+.Bootstrap {
+  color: white;
+  background-color: rgb(121, 82, 179);
+  height: 36px;
+  width: 105px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Bootstrap:hover {
+  background-color: rgb(106, 70, 159);
+}
+
+.Download {
+  background-color: white;
+  width: 105px;
+  height: 36px;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  cursor: pointer;
+  color: rgb(108, 117, 125);
+}
+
+.Download:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.Apply-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 205px;
+  height: 36px;
+  font-weight: bold;
+}
+
+.Apply-button:hover {
+  background-color: rgb(8, 92, 176);
+}
+
+.Save {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  width: 80px;
+  height: 36px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Save:hover {
+  background-color: rgb(197, 226, 255);
+  border-width: 1.5px;
+}

@@ -1,0 +1,19 @@
+.search-bar {
+  margin-top: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.thumbnail {
+  width: 300px;
+  display: block;
+}
+
+.channel {
+  display: inline-block;
+}
+
+.statistic {
+  display: inline-block;
+}

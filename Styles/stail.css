@@ -1,0 +1,90 @@
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to top left, #000000, #424242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contact form container */
+.contact-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Title styling */
+.contact-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form group (for labels and inputs) */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Label styling */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+/* Button styling */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffd700;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.15);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #d2b303;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 500px) {
+  .contact-container {
+    padding: 20px;
+    width: 90%;
+  }
+}

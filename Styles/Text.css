@@ -1,0 +1,52 @@
+p {
+  font-family: roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.random {
+  font-family: montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.random2 {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.ryozo {
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.good {
+  width: 300px;
+  line-height: 22px;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.preorder {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: red;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.span-example {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.span-example:hover {
+  text-decoration: underline;
+}

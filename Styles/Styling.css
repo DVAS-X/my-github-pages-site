@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #1a1a1a;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #ffd700;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.landing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #1a1a1a;
+}
+
+.intro {
+  max-width: 500px;
+}
+
+.intro h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.intro h1 {
+  font-size: 4em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.intro .tagline {
+  color: #ffd700;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+
+.intro button {
+  background-color: #ffd700;
+  color: black;
+  font-size: 1.2em;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logo img {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.about {
+  padding: 50px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.vision-mission {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.vision,
+.mission {
+  max-width: 45%;
+}
+
+.vision h3,
+.mission h3 {
+  font-size: 2em;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+.vision p,
+.mission p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.marketing {
+  padding: 50px;
+  background-color: #333333;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-size: 2.5em;
+  color: #ffd700;
+  margin-bottom: 40px;
+}
+
+.strategy {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.step {
+  background-color: #444444;
+  color: #ffd700;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 calc(33% - 20px);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.product {
+  padding: 50px;
+  text-align: center;
+}
+
+.product h2 {
+  font-size: 2.5em;
+  color: #ffd700;
+  margin-bottom: 40px;
+}
+
+.product-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  max-width: 200px;
+  margin: 10px;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-item p {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+footer {
+  padding: 50px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 2.5em;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+footer .social-media a {
+  margin: 0 10px;
+}
+
+footer .social-media img {
+  width: 50px;
+}
